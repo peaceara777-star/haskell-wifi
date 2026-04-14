@@ -1,0 +1,17 @@
+# HLint configuration file
+# https://github.com/ndmitchell/hlint
+
+- arguments: [--color=auto, --cross]
+
+- ignore: {name: "Use camelCase"}
+- ignore: {name: "Redundant do"}
+- ignore: {name: "Redundant bracket"}
+- ignore: {name: "Use const"}
+- ignore: {name: "Use if"}
+
+- warn: {name: "Use unwords"}
+- warn: {name: "Use unlines"}
+- warn: {name: "Use map"}
+- warn: {name: "Use filter"}
+
+- hint: {lhs: "return ()", rhs: "pass", note: "Use pass instead"}
