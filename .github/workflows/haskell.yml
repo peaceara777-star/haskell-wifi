@@ -1,0 +1,12 @@
+name: Haskell CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: haskell-actions/setup@v2
+      with:
+        ghc-version: '9.4.8'
+    - run: stack build
+    - run: stack test
