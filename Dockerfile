@@ -1,7 +1,7 @@
 # WiFi Diagnostic Tool Docker Image
 # Multi-stage build for optimal size
 
-FROM haskell:9.4-slim AS builder
+FROM haskell:9.8-slim AS builder
 
 WORKDIR /build
 
