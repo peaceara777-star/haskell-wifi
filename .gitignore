@@ -1,0 +1,29 @@
+# Stack
+.stack-work/
+.stack-work-dist/
+.stack-root/
+
+# Cabal
+dist/
+dist-newstyle/
+cabal.project.local
+
+# GHC
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+
+# IDE
+.vscode/
+.hie/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.log
